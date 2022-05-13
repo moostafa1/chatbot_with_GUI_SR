@@ -1,0 +1,309 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good day",
+        "Good morning",
+        "Good evening",
+        "Good afternoon"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, I'm in your service",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Hi, what do you need?",
+        "Hi, give me your order please"
+      ]
+    },
+
+
+
+
+    {
+      "tag": "greeting_2",
+      "patterns": [
+        "How are you?"
+      ],
+      "responses": [
+        "I'm fine, what I can do for you?",
+        "I'm fine, how can I help?"
+      ]
+    },
+
+
+
+
+    {
+      "tag": "greeting_3",
+      "patterns": [
+        "Is anyone there?",
+        "Is anybody here?"
+      ],
+      "responses": [
+        "I'm in your service",
+        "Of course, I'm sorry for making you waiting",
+        "I apologize for making you waiting"
+      ]
+    },
+
+
+
+
+    {
+      "tag": "waiting",
+      "patterns": [
+        "Will I wait for along!",
+        "Hey, I'm waiting"
+      ],
+      "responses": [
+        "I'm in your service",
+        "I'm sorry for making you waiting",
+        "I apologize for making you waiting"
+      ]
+    },
+
+
+
+    {
+      "tag": "name",
+      "patterns": [
+        "What are you called?",
+        "What is your name?"
+      ],
+      "responses": [
+        "My name is Sam, I'm in your service sir"
+      ]
+    },
+
+
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Bye-Bye now, I'll come again",
+        "See you later",
+        "Goodbye",
+        "Have a nice day",
+        "I'm have to go now",
+        "I'm have to leave"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "As you like, sir",
+        "I hope my service satisfy you",
+        "Please give me a high reward"
+      ]
+    },
+
+
+
+
+    {
+      "tag": "reward",
+      "patterns": [
+        "Thanks",
+        "No, thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "I'll give you a high reward",
+        "I'll reward you",
+        "You're a good waiter",
+        "Your service is amazing",
+        "You're so polite"
+      ],
+      "responses": [
+        "Thanks alot, I'm in your service",
+        "Thanks for your praise",
+        "I'm designeed to serve you, sir",
+        "Thanks, Happy to help!",
+        "My pleasure"
+      ]
+    },
+
+
+
+
+    {
+      "tag": "job",
+      "patterns": [
+        "What's your job?",
+        "What do you work?",
+        "What are you doing here?"
+      ],
+      "responses": [
+        "I'm the waiter that used to serve in this restaurant",
+        "I'm the waiter",
+        "My job is to take orders from clients"
+      ]
+    },
+
+
+
+
+    {
+      "tag": "to_eat",
+      "patterns": [
+        "Which items do you have?",
+        "What kind of food do you serve?",
+        "What are the main course options?",
+        "What is the today's special?",
+        "Can you tell me the most delicious dish from the menu?",
+        "I'm starving",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "Give me the Menu, please",
+        "What is your Menu?",
+        "Menu, please",
+        "I want Menu",
+        "Menu"
+
+      ],
+      "responses": [
+        "You can visit www.mymenu.com for menu options", "You can check out the food menu at www.mymenu.com",
+        "You can check various delicacies given in the food menu at www.mymenu.com"
+      ]
+    },
+
+
+
+
+    {
+      "tag": "to_drink",
+      "patterns": [
+        "What do you have to drink?",
+        "Is there fresh juices?"
+      ],
+      "responses": [
+        "yeah, we serves special fresh juices"
+      ]
+    },
+
+
+
+
+    {
+      "tag": "food",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What is your main plate?",
+        "What kinds of food are you serving?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We serves sea food",
+        "We have coffee and tea"
+      ]
+    },
+
+
+
+
+    {"tag": "hours",
+     "patterns": [
+       "What hours are you open?",
+       "What are your hours?",
+       "When are you open?",
+       "When are you close?",
+       "What's your times?"
+     ],
+     "responses": [
+       "We're open every day 9am-9pm",
+       "Our hours are 9am-9pm every day"
+      ]
+    },
+
+
+
+
+    {"tag": "location",
+     "patterns": [
+       "What is your location?",
+       "Where are you located?",
+       "What is your address?",
+       "Where is your restaurant situated?"
+     ],
+     "responses": [
+       "We are on the intersection of London Alley and Bridge Avenue.",
+       "We are situated at the intersection of London Alley and Bridge Avenue",
+       "Our Address is: 1000 Bridge Avenue, London EC3N 4AJ, UK"
+     ]
+    },
+
+
+
+
+    {
+      "tag": "drink",
+      "patterns": [
+        "I want a bottle of water with the order",
+        "I want a can with the order",
+        "I want a fresh juice with the order"
+      ],
+      "responses": [
+        "Ok, sir",
+        "Got it",
+        "Any additions?"
+      ]
+    },
+
+
+
+
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+
+
+
+
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?",
+        "When my order arrives?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+
+
+
+
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
